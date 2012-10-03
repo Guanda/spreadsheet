@@ -1,0 +1,16 @@
+This doc explains how to run the project and the pattern I use to design.
+
+How to run it
+===============
+When you run the "run.sh" file in linux system, you can get the result. You can change the data in "target.csv" to test different situation.
+
+When you first run it, you will get "temp.csv" and "result.csv". The "temp.csv" is a file to install the temperary data when the raw data have been first processed. Because the cell reference maybe occur before the cell been processing. So we need the temp.csv to get the processing data. 
+
+The result.csv is the result file. 
+
+
+Design Pattern
+===============
+In this project I use "strategy pattern". Because this pattern is useful for code reuse and it is clear to understand.
+
+
